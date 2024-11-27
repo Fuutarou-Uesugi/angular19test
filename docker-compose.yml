@@ -1,0 +1,6 @@
+services:
+  angular-app:
+    image: angular-app  # Nombre de la imagen que deseas usar
+    ports:
+      - "80:80"  # Mapea el puerto 8080 de tu máquina al 80 del contenedor
+    container_name: angular-app-container
